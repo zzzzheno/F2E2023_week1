@@ -7,16 +7,16 @@
 
 // scss-docs-start gray-color-variables
 $white:    #FFF !default;
-$gray-100: RGBA(44, 40, 27, 0.1) !default;
-$gray-200: RGBA(44, 40, 27, 0.2) !default;
-$gray-300: RGBA(44, 40, 27, 0.3) !default;
-$gray-400: RGBA(44, 40, 27, 0.4) !default;
-$gray-500: RGBA(44, 40, 27, 0.5) !default;
-$gray-600: RGBA(44, 40, 27, 0.6) !default;
-$gray-700: RGBA(44, 40, 27, 0.7) !default;
-$gray-800: RGBA(44, 40, 27, 0.8) !default;
-$gray-900: RGBA(44, 40, 27, 0.9) !default;
-$black:    RGBA(44, 40, 27, 1) !default;
+$gray-100: rgba(44, 40, 27, 0.1) !default;
+$gray-200: rgba(44, 40, 27, 0.2) !default;
+$gray-300: rgba(44, 40, 27, 0.3) !default;
+$gray-400: rgba(44, 40, 27, 0.4) !default;
+$gray-500: rgba(44, 40, 27, 0.5) !default;
+$gray-600: rgba(44, 40, 27, 0.6) !default;
+$gray-700: rgba(44, 40, 27, 0.7) !default;
+$gray-800: rgba(44, 40, 27, 0.8) !default;
+$gray-900: rgba(44, 40, 27, 0.9) !default;
+$black:    rgba(44, 40, 27, 1) !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable

@@ -1,0 +1,20 @@
+.button-primary {
+    background-color: var(--primary);
+    color: var(--black);
+    font-size: var(--h5-font-size);
+    padding: var(--spacer5) var(--spacer2);
+}
+
+.button-primary:hover {
+    background-color: #BF8900;
+}
+
+.button-secondary {
+    color: var(--black);
+    font-size: var(--h5-font-size);
+    padding: var(--spacer5) var(--spacer2);
+}
+
+.button-secondary:hover {
+    background-color: var(--gray-200);
+}
