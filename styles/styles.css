@@ -1,20 +1,37 @@
 .button-primary {
-    background-color: var(--primary);
-    color: var(--black);
-    font-size: var(--h5-font-size);
-    padding: var(--spacer5) var(--spacer2);
+    background-color: var(--bs-primary);
+    color: var(--bs-black);
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 1px;;
+    text-decoration: none;
+    padding: 8px 24px;
+    border-radius: 100px;
+
 }
 
 .button-primary:hover {
     background-color: #BF8900;
+    color: var(--bs-black);
+    transition-duration: 0.5s;
 }
 
 .button-secondary {
-    color: var(--black);
-    font-size: var(--h5-font-size);
-    padding: var(--spacer5) var(--spacer2);
+    color: var(--bs-black);
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 8px 24px;
+    border-radius: 200px;
 }
 
 .button-secondary:hover {
-    background-color: var(--gray-200);
+    background-color: var(--bs-gray-200);
+    color: var(--bs-black);
+    transition-duration: 0.5s;
+}
+
+.shadow1 {
+    box-shadow: var(--bs-gray-100) 0px 3px 6px;
 }
