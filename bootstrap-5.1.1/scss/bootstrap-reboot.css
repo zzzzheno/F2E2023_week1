@@ -279,7 +279,7 @@ kbd {
   font-size: 0.875em;
   color: #FFF;
   background-color: rgba(44, 40, 27, 0.9);
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 kbd kbd {
   padding: 0;

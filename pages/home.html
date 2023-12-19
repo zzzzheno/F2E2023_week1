@@ -10,8 +10,14 @@
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded">
     <!-- stylesheets end -->
+
+    <!-- swiper start -->
+    <link rel="stylesheet" href="/swiper-bundle.min.css"/>
+    <script src="/swiper-bundle.min.js"></script>
+    <!-- swiper end -->
 </head>
-<body class="base-primary">
+
+<body class="bg-primary">
     <!-- navbar start -->
     <nav class="navbar navbar-expand-xl fixed-top">
         <div class="container d-flex">
@@ -65,17 +71,17 @@
 
     <!-- intro start -->
     <section class="container-fluid" style="background: linear-gradient(180deg, rgba(254, 252, 242, 0) 0%, rgba(254, 252, 242, 1) 100%); border-radius: 0px 0px 0px 96px">
-        <div class="container position-relative py-7">
-            <div class="row my-7">
+        <div class="container py-7">
+            <div class="row my-7 position-relative" style="z-index: 1;">
                 <div class="col-8">
-                    <div class="ratio ratio-4x3 rounded-3 overflow-hidden shadow">
+                    <div class="ratio ratio-4x3 rounded-2 overflow-hidden shadow">
                         <img src="/assets/intro.jpg" alt="" class="w-100 img-cover position-absolute top-0">
                     </div>
                 </div>
             </div>
-            <div class="row position-relative" style="top: -280px">
+            <div class="row py-7 position-relative" style="margin-top: -360px; z-index: 1000;">
                 <div class="col-4"></div>
-                <div class="col-8 p-7 rounded-3 shadow bg-light">
+                <div class="col-8 p-7 rounded-2 shadow bg-light">
                     <h6 class="m-1" style="opacity: 0.7">立委候選人</h6>
                     <div class="mb-7">
                         <h2 class="d-inline">喵立翰</h2>
@@ -91,5 +97,84 @@
         </div>
     </section>
     <!-- intro end -->
+
+    <!-- news start -->
+    <section class="container-fluid my-7 py-7">
+        <div class="container pb-5">
+            <h2>最新活動</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="row swiper-wrapper">
+                <div class="col-5 swiper-slide rounded-1 overflow-hidden">
+                    <div class="ratio ratio-16x9">
+                        <img src="/assets/news-1.jpg" alt="" class="img-cover">
+                    </div>
+                    <div class="bg-light p-5">
+                        <h6 class="mb-1" style="opacity: 0.7;">2023/12/26</h6>
+                        <h4 class="mb-5">參與台北寵物論壇，爭取貓咪友善環境</h4>
+                        <h5 style="opacity: 0.7; text-align: justify;">炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的 VIP 休憩空間。</h6>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-1 overflow-hidden col-5">
+                    <div class="ratio ratio-16x9">
+                        <img src="/assets/news-2.jpg" alt="" class="img-cover">
+                    </div>
+                    <div class="bg-light p-5">
+                        <h6 class="mb-1" style="opacity: 0.7;">2023/12/26</h6>
+                        <h4 class="mb-5">掃街模式開啟！帶著你的貓耳，來和我一起走！</h4>
+                        <h5 style="opacity: 0.7; text-align: justify;">街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。</h6>
+                    </div>
+                </div>
+                <div class="swiper-slide rounded-1 overflow-hidden col-5">
+                    <div class="ratio ratio-16x9">
+                        <img src="/assets/news-3.jpg" alt="" class="img-cover">
+                    </div>
+                    <div class="bg-light p-5">
+                        <h6 class="mb-1" style="opacity: 0.7;">2023/12/26</h6>
+                        <h4 class="mb-5">收容所模特兒大比拼！</h4>
+                        <h5 style="opacity: 0.7; text-align: justify;">今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="rounded-1 overflow-hidden col-5">
+                <div class="ratio ratio-16x9">
+                    <img src="/assets/news-3.jpg" alt="" class="img-cover">
+                </div>
+                <div class="bg-light p-5">
+                    <h6 class="mb-1" style="opacity: 0.7;">2023/12/26</h6>
+                    <h4 class="mb-5">收容所模特兒大比拼！</h4>
+                    <h5 style="opacity: 0.7; text-align: justify;">今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！</h6>
+                </div>
+            </div>
+            <div class="rounded-1 overflow-hidden col-5">
+                <div class="ratio ratio-16x9">
+                    <img src="/assets/news-3.jpg" alt="" class="img-cover">
+                </div>
+                <div class="bg-light p-5">
+                    <h6 class="mb-1" style="opacity: 0.7;">2023/12/26</h6>
+                    <h4 class="mb-5">收容所模特兒大比拼！</h4>
+                    <h5 style="opacity: 0.7; text-align: justify;">今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！</h6>
+                </div>
+            </div>
+            <div class="rounded-1 overflow-hidden col-5">
+                <div class="ratio ratio-16x9">
+                    <img src="/assets/news-3.jpg" alt="" class="img-cover">
+                </div>
+                <div class="bg-light p-5">
+                    <h6 class="mb-1" style="opacity: 0.7;">2023/12/26</h6>
+                    <h4 class="mb-5">收容所模特兒大比拼！</h4>
+                    <h5 style="opacity: 0.7; text-align: justify;">今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news end -->
 </body>
 </html>

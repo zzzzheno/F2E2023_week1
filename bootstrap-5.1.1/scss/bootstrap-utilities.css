@@ -1619,7 +1619,7 @@
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 2rem !important;
 }
 
 .rounded-0 {
@@ -1627,11 +1627,11 @@
 }
 
 .rounded-1 {
-  border-radius: 2rem !important;
+  border-radius: 1rem !important;
 }
 
 .rounded-2 {
-  border-radius: 0.25rem !important;
+  border-radius: 2rem !important;
 }
 
 .rounded-3 {
@@ -1647,23 +1647,23 @@
 }
 
 .rounded-top {
-  border-top-left-radius: 0.25rem !important;
-  border-top-right-radius: 0.25rem !important;
+  border-top-left-radius: 2rem !important;
+  border-top-right-radius: 2rem !important;
 }
 
 .rounded-end {
-  border-top-right-radius: 0.25rem !important;
-  border-bottom-right-radius: 0.25rem !important;
+  border-top-right-radius: 2rem !important;
+  border-bottom-right-radius: 2rem !important;
 }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-bottom-right-radius: 2rem !important;
+  border-bottom-left-radius: 2rem !important;
 }
 
 .rounded-start {
-  border-bottom-left-radius: 0.25rem !important;
-  border-top-left-radius: 0.25rem !important;
+  border-bottom-left-radius: 2rem !important;
+  border-top-left-radius: 2rem !important;
 }
 
 .visible {

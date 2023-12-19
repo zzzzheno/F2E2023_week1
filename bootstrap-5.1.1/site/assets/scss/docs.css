@@ -1133,7 +1133,7 @@
   width: 2em;
   height: 2em;
   background-color: rgba(44, 40, 27, 0.9);
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 
 .bd-example-position-examples::after {
@@ -1234,7 +1234,7 @@
   margin-bottom: 1.25rem;
   border: 1px solid rgba(44, 40, 27, 0.2);
   border-left-width: 0.25rem;
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 .bd-callout h4 {
   margin-bottom: 0.25rem;
@@ -1243,7 +1243,7 @@
   margin-bottom: 0;
 }
 .bd-callout code {
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 .bd-callout + .bd-callout {
   margin-top: -0.25rem;
@@ -2102,7 +2102,7 @@
   color: #EDAF10;
   background-color: #FFF;
   border: 1px solid;
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 .btn-clipboard:hover, .btn-clipboard:focus {
   color: #FFF;
@@ -2498,7 +2498,7 @@
   font-size: 0.875rem;
   background-color: #FFF;
   border: 1px solid rgba(44, 40, 27, 0.15);
-  border-radius: 0.25rem;
+  border-radius: 2rem;
 }
 @media (min-width: 768px) {
   .ds-dropdown-menu {
