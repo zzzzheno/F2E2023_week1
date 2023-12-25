@@ -17,7 +17,7 @@
     <!-- swiper end -->
 </head>
 
-<body class="bg-primary">
+<body class="bg-primary overflow-hidden">
     <!-- navbar start -->
     <nav class="navbar navbar-expand-xl fixed-top">
         <div class="container d-flex">
@@ -135,9 +135,42 @@
                         <h5 class="text-hidden" style="opacity: 0.7; text-align: justify; -webkit-line-clamp: 3;">今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！</h6>
                     </div>
                 </div>
+                <div class="col-5 mx-3 p-0 rounded-1 overflow-hidden shadow swiper-side">
+                    <div class="ratio ratio-16x9">
+                        <img class="img-cover" src="/assets/news-3.jpg" alt="">
+                    </div>
+                    <div class="bg-light p-5">
+                        <h6 class="mb-1" style="opacity: 0.7;">2023/12/26</h6>
+                        <h4 class="mb-5 text-hidden" style="height: 56px; -webkit-line-clamp: 2;">收容所模特兒大比拼！</h4>
+                        <h5 class="text-hidden" style="opacity: 0.7; text-align: justify; -webkit-line-clamp: 3;">今天的收容所不再是一片寂靜。為了讓更多人認識到這裡的毛孩子，我們舉辦了一場前所未有的「模特兒走秀」！</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="container mt-5 p-0 d-flex justify-content-end">
+            <div class="button-secondary d-flex align-items-center">更多活動
+                <span class="material-symbols-rounded">
+                    arrow_forward
+                    </span>
             </div>
         </div>
     </section>
+    
+    <!-- swiper.js -->
+   <!-- swiper.js -->
+    <script>
+        const swiper = new Swiper('.mySwiper', {
+            cssmode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            mousewheel: true,
+        });
+    </script>
+    <!-- swiper.js -->
     <!-- news end -->
 </body>
 </html>
