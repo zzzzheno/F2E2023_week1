@@ -730,7 +730,6 @@
   margin-top: 0.125rem;
   margin-left: 1.25rem;
   color: rgba(44, 40, 27, 0.65);
-  text-decoration: none;
 }
 .bd-links a:hover, .bd-links a:focus {
   color: rgba(44, 40, 27, 0.85);
@@ -862,7 +861,7 @@
   text-decoration: none;
 }
 .bd-footer a:hover, .bd-footer a:focus {
-  color: #EDAF10;
+  color: rgb(44, 40, 27);
   text-decoration: underline;
 }
 
@@ -2474,7 +2473,7 @@
 
 .anchorjs-link {
   font-weight: 400;
-  color: rgba(237, 175, 16, 0.5);
+  color: rgba(44, 40, 27, 0.5);
   transition: color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2483,7 +2482,7 @@
   }
 }
 .anchorjs-link:focus, .anchorjs-link:hover {
-  color: #EDAF10;
+  color: rgb(44, 40, 27);
   text-decoration: none;
 }
 

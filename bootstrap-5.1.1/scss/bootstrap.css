@@ -230,11 +230,11 @@ sup {
 }
 
 a {
-  color: #EDAF10;
-  text-decoration: underline;
+  color: rgb(44, 40, 27);
+  text-decoration: none;
 }
 a:hover {
-  color: #be8c0d;
+  color: #232016;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2807,7 +2807,6 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: rgba(44, 40, 27, 0.9);
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
@@ -3279,11 +3278,11 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #EDAF10;
-  text-decoration: underline;
+  color: rgb(44, 40, 27);
+  text-decoration: none;
 }
 .btn-link:hover {
-  color: #be8c0d;
+  color: #232016;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: rgba(44, 40, 27, 0.6);
@@ -3571,7 +3570,6 @@ textarea.form-control-lg {
   font-weight: 400;
   color: rgba(44, 40, 27, 0.9);
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -3746,8 +3744,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #EDAF10;
-  text-decoration: none;
+  color: rgb(44, 40, 27);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3756,7 +3753,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #be8c0d;
+  color: #232016;
 }
 .nav-link.disabled {
   color: rgba(44, 40, 27, 0.6);
@@ -3860,7 +3857,6 @@ textarea.form-control-lg {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  text-decoration: none;
   white-space: nowrap;
 }
 .navbar-nav {
@@ -4610,8 +4606,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #EDAF10;
-  text-decoration: none;
+  color: rgb(44, 40, 27);
   background-color: #FFF;
   border: 1px solid rgba(44, 40, 27, 0.3);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4623,13 +4618,13 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: #be8c0d;
+  color: #232016;
   background-color: rgba(44, 40, 27, 0.2);
   border-color: rgba(44, 40, 27, 0.3);
 }
 .page-link:focus {
   z-index: 3;
-  color: #be8c0d;
+  color: #232016;
   background-color: rgba(44, 40, 27, 0.2);
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(237, 175, 16, 0.25);
@@ -4893,7 +4888,6 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   color: rgba(44, 40, 27, 0.9);
-  text-decoration: none;
   background-color: #FFF;
   border: 1px solid rgba(44, 40, 27, 0.125);
 }
