@@ -2063,11 +2063,11 @@ progress {
   color: rgba(44, 40, 27, 0.9);
   background-color: #FFF;
   background-clip: padding-box;
-  border: 1px solid rgba(44, 40, 27, 0.4);
+  border: 1px solid rgba(44, 40, 27, 0.2);
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border-radius: 2rem;
+  border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2170,7 +2170,7 @@ progress {
   min-height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
 }
 .form-control-sm::file-selector-button {
   padding: 0.25rem 0.5rem;
@@ -2187,7 +2187,7 @@ progress {
   min-height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 3rem;
+  border-radius: 0.25rem;
 }
 .form-control-lg::file-selector-button {
   padding: 0.5rem 1rem;
@@ -2220,11 +2220,11 @@ textarea.form-control-lg {
 }
 .form-control-color::-moz-color-swatch {
   height: 1.5em;
-  border-radius: 2rem;
+  border-radius: 0.25rem;
 }
 .form-control-color::-webkit-color-swatch {
   height: 1.5em;
-  border-radius: 2rem;
+  border-radius: 0.25rem;
 }
 
 .form-select {
@@ -2241,7 +2241,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
-  border: 1px solid rgba(44, 40, 27, 0.4);
+  border: 1px solid rgba(44, 40, 27, 0.2);
   border-radius: 2rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
@@ -2580,8 +2580,8 @@ textarea.form-control-lg {
   text-align: center;
   white-space: nowrap;
   background-color: rgba(44, 40, 27, 0.2);
-  border: 1px solid rgba(44, 40, 27, 0.4);
-  border-radius: 2rem;
+  border: 1px solid rgba(44, 40, 27, 0.2);
+  border-radius: 0.25rem;
 }
 
 .input-group-lg > .form-control,
@@ -2590,7 +2590,7 @@ textarea.form-control-lg {
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  border-radius: 3rem;
+  border-radius: 0.25rem;
 }
 
 .input-group-sm > .form-control,
@@ -2599,7 +2599,7 @@ textarea.form-control-lg {
 .input-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
 }
 
 .input-group-lg > .form-select,
