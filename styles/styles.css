@@ -22,11 +22,21 @@
     color: var(--bs-gray-700)
 }
 
+.text-align {
+    text-align: justify;
+}
+
 .text-hidden {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   white-space: normal;
+}
+
+.remark1 {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--bs-gray-900);
 }
 
 .button-primary {
@@ -71,4 +81,11 @@
 
 .img-cover {
     object-fit: cover;
+}
+
+.page-style {
+    width: 32px;
+    height: 32px;
+    background-color: var(--bs-light);
+    border-radius: 8px;
 }
