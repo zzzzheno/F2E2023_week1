@@ -47,6 +47,8 @@
     object-fit: cover;
 }
 
+/* elements start */
+
 .page-style {
     width: 32px;
     height: 32px;
@@ -62,6 +64,7 @@
     text-decoration: none;
     padding: 8px 24px;
     border-radius: 100px;
+    transition-duration: 0.5s;
 }
 
 .button-primary:hover {
@@ -77,6 +80,7 @@
     text-decoration: none;
     padding: 8px 24px;
     border-radius: 200px;
+    transition-duration: 0.5s;
 }
 
 .button-secondary:hover {
@@ -94,3 +98,52 @@
     font-size: 0.875rem;
     padding: 4px 12px;
 }
+
+.activity-list,
+.activity-list h6,
+.activity-list .remark1 {
+    transition-duration: 0.5s;
+}
+
+.activity-list img {
+    transition-duration: 0.5s;
+}
+
+.activity-list:hover,
+.activity-list:hover h6,
+.activity-list:hover .remark1 {
+    color: var(--bs-primary) !important;
+    transition-duration: 0.5s;
+}
+
+.activity-list:hover img {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.donate-cover {
+    z-index: 10;
+    background-image: linear-gradient(0deg, rgba(44, 40, 27, 1) 0% ,rgba(44, 40, 27, 0) 100% );
+    transition-duration: 0.5s;
+}
+
+.donate img {
+    transition-duration: 0.5s;
+}
+
+.donate:hover img {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.activity-another {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.activity-another:hover {
+    opacity: 1 !important;
+    transition-duration: 0.5s;
+}
+
+/* elements end */
