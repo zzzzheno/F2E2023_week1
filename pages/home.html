@@ -11,6 +11,10 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded">
     <!-- stylesheets end -->
 
+    <!-- bs5.js start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- bs5.js end -->
+
     <!-- swiper start -->
     <link rel="stylesheet" href="/swiper/swiper-bundle.min.css">
     <!-- swiper end -->
@@ -27,10 +31,11 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="material-symbols-rounded">menu</span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-start d-flex align-items-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <a href="/pages/home.html">
+                        <img src="/assets/Logo.png" alt="">
+                    </a>
                 </div>
                 <div class="offcanvas-body">
                     <div class="d-flex align-items-center">
@@ -52,29 +57,7 @@
                         </ul>
                     </div>
                 </div>
-              </div>
-
-              
-            <!-- <div class="collapse navbar-collapse justify-content-end">
-                <div class="d-flex align-items-center">
-                    <ul class="navbar-nav me-7">
-                        <li class="nav-item me-5">
-                            <a href="/pages/activity.html" class="button-secondary button-lg">最新活動</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/pages/issuee.html" class="button-secondary button-lg">政策議題</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ms-7">
-                        <li class="nav-item">
-                            <a href="#donate" class="button-primary button-lg d-flex align-items-center">
-                                <span class="me-2">小額捐款</span>
-                                <span class="material-symbols-rounded">savings</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
+            </div>
         </div>
     </nav>
     <!-- navbar end -->
