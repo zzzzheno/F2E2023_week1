@@ -152,18 +152,142 @@
 
 /* elements end */
 
-/* <768px start */
-@media (min-width: 768px) { 
-    
+.nav-custom {
+    display: flex;
+    align-items: end;
 }
-/* <768px end */
+
+.nav-menu-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    background: linear-gradient(180deg, rgba(254, 252, 242, 0) 0%, rgba(254, 252, 242, 1) 100%);
+    border-radius: 0px 0px 0px 96px;
+}
+
+.intro-position {
+    margin-top: -360px;
+    z-index: 1000;
+}
+
+.activity-top {
+    margin-top: 234px;
+}
+
+.activity-bottom {
+    margin-bottom: 96px;
+}
+
+.issuee {
+    border-radius: 96px 0px 96px 0px;
+}
+
+.contant > .row > div > div {
+    padding: 96px 48px;
+    border-radius: 96px 0px 0px 96px;
+}
+
+/* XL <1200px start */
+@media screen and (max-width: 1199px) {
+    .nav-custom {
+        align-items: start;
+    }
+
+    .nav-menu-custom > .nav-item{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 24px;
+    }
+}
+/* XL <1200px end */
+
+/* L <992px start */
+@media screen and (max-width: 991px) {
+
+    .banner > div {
+        padding: 0px !important;
+    }
+
+    .intro {
+        border-radius: 0px 0px 0px 24px;
+    }
+
+    .intro > .py-7 {
+        padding: 0px !important;
+    }
+
+    .intro-position {
+        margin-top: 0px;
+        padding-top: 0px !important;
+    }
+
+    .intro-position > .col-12 > .bg-light {
+        background-color: unset !important;
+        box-shadow: none !important;
+        padding: 0px !important;
+    }
+
+    .activity {
+        padding: 0px 12px !important;
+    }
+
+    .activity-top {
+        margin-top: 186px;
+        margin-bottom: 0px !important;
+    }
+
+    .activity-top > div {
+        padding: 0px !important;
+    }
+
+    .activity-bottom {
+        margin-bottom: 48px;
+    }
+
+    .issuee {
+        padding: 0px 12px !important;
+        border-radius: 24px 0px 24px 0px;
+    }
+
+    .issuee-position {
+        flex-direction: row !important;
+    }
+
+    .issuee-position > div {
+        align-items: start !important;
+        margin-bottom: 0px !important;
+    }
+
+    #donate {
+        padding: 0px 12px !important;
+    }
+
+    .donate > .ratio-1x1 {
+        --bs-aspect-ratio: 56.25% !important;
+    }
+    
+    .contant > .row > div > div {
+        padding: 48px 12px !important;
+        border-radius: 24px 0px 0px 24px;
+    }
+
+    .contant-img {
+        display: none;
+    }
+
+    .footer {
+        padding: 24px 12px !important;
+    }
+}
+/* L <992px end */
 
 /* 手機版<576px start */
-
 @media screen and (max-width: 576px) {
     .bn-size {
         width: 50vw;
     }
-
 }
 /* 手機版<576px end */

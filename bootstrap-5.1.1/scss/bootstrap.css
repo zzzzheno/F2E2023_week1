@@ -48,7 +48,7 @@
   --bs-black-rgb: 44, 40, 27;
   --bs-body-color-rgb: 44, 40, 27;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", system-ui, -apple-system;
+  --bs-font-sans-serif: "Noto Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", system-ui, -apple-system;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -3890,6 +3890,7 @@ textarea.form-control-lg {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
+  border-radius: 4px;
   transition: box-shadow 0.15s ease-in-out;
   color: var(--bs-black);
 }
@@ -3900,11 +3901,11 @@ textarea.form-control-lg {
 }
 .navbar-toggler:hover {
   background-color: var(--bs-gray-100);
+  transition-duration: 0.5s;
 }
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem;
 }
 
 .navbar-toggler-icon {
@@ -6071,7 +6072,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
 }
 .offcanvas-header .btn-close {
   padding: 0.5rem 0.5rem;
@@ -6087,22 +6088,21 @@ textarea.form-control-lg {
 
 .offcanvas-body {
   flex-grow: 1;
-  padding: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
   overflow-y: auto;
 }
 
 .offcanvas-start {
   top: 0;
   left: 0;
-  width: 400px;
   border-right: 1px solid rgba(44, 40, 27, 0.2);
+  border-radius: 0px 24px 24px 0px;
   transform: translateX(-100%);
 }
 
 .offcanvas-end {
   top: 0;
   right: 0;
-  width: 400px;
   border-left: 1px solid rgba(44, 40, 27, 0.2);
   transform: translateX(100%);
 }

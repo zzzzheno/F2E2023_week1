@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: $offcanvas-padding-y $offcanvas-padding-x;
+  padding: $offcanvas-padding-y * 1.5 $offcanvas-padding-x * 1.5;
 
   .btn-close {
     padding: ($offcanvas-padding-y * .5) ($offcanvas-padding-x * .5);
@@ -39,22 +39,23 @@
 
 .offcanvas-body {
   flex-grow: 1;
-  padding: $offcanvas-padding-y $offcanvas-padding-x;
+  padding: $offcanvas-padding-y * 1.5 $offcanvas-padding-x * 1.5;
   overflow-y: auto;
 }
 
 .offcanvas-start {
   top: 0;
   left: 0;
-  width: $offcanvas-horizontal-width;
+  // width: $offcanvas-horizontal-width;
   border-right: $offcanvas-border-width solid $offcanvas-border-color;
+  border-radius: 0px 24px 24px 0px;
   transform: translateX(-100%);
 }
 
 .offcanvas-end {
   top: 0;
   right: 0;
-  width: $offcanvas-horizontal-width;
+  // width: $offcanvas-horizontal-width;
   border-left: $offcanvas-border-width solid $offcanvas-border-color;
   transform: translateX(100%);
 }

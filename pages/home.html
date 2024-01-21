@@ -31,31 +31,27 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="material-symbols-rounded">menu</span>
             </button>
-            <div class="offcanvas offcanvas-start d-flex align-items-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
+            <div class="offcanvas offcanvas-start nav-custom" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header ">
                     <a href="/pages/home.html">
                         <img src="/assets/Logo.png" alt="">
                     </a>
                 </div>
                 <div class="offcanvas-body">
-                    <div class="d-flex align-items-center">
-                        <ul class="navbar-nav me-7">
-                            <li class="nav-item me-5">
-                                <a href="/pages/activity.html" class="button-secondary button-lg">最新活動</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/pages/issuee.html" class="button-secondary button-lg">政策議題</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ms-7">
-                            <li class="nav-item">
-                                <a href="#donate" class="button-primary button-lg d-flex align-items-center">
-                                    <span class="me-2">小額捐款</span>
-                                    <span class="material-symbols-rounded">savings</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="navbar-nav nav-menu-custom">
+                        <li class="nav-item me-5">
+                            <a href="/pages/activity.html" class="button-secondary button-lg">最新活動</a>
+                        </li>
+                        <li class="nav-item me-7">
+                            <a href="/pages/issuee.html" class="button-secondary button-lg">政策議題</a>
+                        </li>
+                        <li class="nav-item ms-7">
+                            <a href="#donate" class="button-primary button-lg d-flex align-items-center">
+                                <span class="me-2">小額捐款</span>
+                                <span class="material-symbols-rounded">savings</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -63,7 +59,7 @@
     <!-- navbar end -->
 
     <!-- banner start -->
-    <section class="w-100 d-flex" style="margin-top: 138px;">
+    <section class="w-100 d-flex banner" style="margin-top: 138px;">
         <div class="w-100 d-flex flex-column justify-content-center align-items-center my-7 py-7">
             <div class="d-inline">
                 <img class="bn-size" src="/assets/solgan.png" alt="">
@@ -84,7 +80,7 @@
     <!-- banner end -->
 
     <!-- intro start -->
-    <section class="container-fluid" style="background: linear-gradient(180deg, rgba(254, 252, 242, 0) 0%, rgba(254, 252, 242, 1) 100%); border-radius: 0px 0px 0px 96px">
+    <section class="container-fluid intro">
         <div class="container py-7 px-0">
             <div class="row my-7 position-relative" style="z-index: 1;">
                 <div class="col-lg-8 col-12">
@@ -93,9 +89,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-end py-7 position-relative" style="margin-top: -360px; z-index: 1000;">
+            <div class="row justify-content-end py-7 position-relative intro-position">
                 <div class="col-lg-8 col-12">
-                    <div class=" rounded-2 shadow-sm bg-light p-7">
+                    <div class="rounded-2 shadow-sm bg-light p-7">
                         <h6 class="mb-1 color-gray-70">立委候選人</h6>
                         <div class="mb-7">
                             <h2 class="d-inline">喵立翰</h2>
@@ -114,13 +110,13 @@
     <!-- intro end -->
 
     <!-- 最新活動 start -->
-    <section class="container-fluid my-7 py-7 overflow-hidden">
+    <section class="container-fluid my-7 py-7 overflow-hidden activity">
         <div class="container mb-5 p-0">
             <h2>最新活動</h2>
         </div>
         <div class="container swiper mySwiper overflow-visible p-0">
             <div class="row flex-nowrap swiper-wrapper">
-                <div class="col-md-5 col-10 swiper-side">
+                <div class="col-lg-5 col-10 swiper-side">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -136,7 +132,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-5 col-10 swiper-side">
+                <div class="col-lg-5 col-10 swiper-side">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -150,7 +146,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-5 col-10 swiper-side">
+                <div class="col-lg-5 col-10 swiper-side">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -164,7 +160,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-5 col-10 swiper-side">
+                <div class="col-lg-5 col-10 swiper-side">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -195,7 +191,7 @@
     <!-- 最新活動 end -->
 
     <!-- 政策 start -->
-    <section class="container-fluid bg-light py-7" style="border-radius: 96px 0px 96px 0px;">
+    <section class="container-fluid bg-light py-7 issuee">
         <div class="container py-7 px-0">
             <h2 class="text-center mb-5">政策</h2>
             <div class="row">
@@ -207,8 +203,8 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-12">
                             <div class="row gy-5">
-                                <div class="col-md-4 col-12">
-                                    <div class="p-5 d-flex flex-column justify-content-between align-items-center bg-white shadow-sm rounded-1 h-100">
+                                <div class="col-lg-4 col-12">
+                                    <div class="p-5 d-flex flex-column justify-content-between align-items-center bg-white shadow-sm rounded-1 h-100 issuee-position">
                                         <div class="d-flex flex-column align-items-center mb-7">
                                             <h1 class="fw-bolder color-primary mb-1">1</h1>
                                             <h5 class="mb-3">設立寵物醫療基金</h5>
@@ -221,8 +217,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12">
-                                    <div class="p-5 d-flex flex-column justify-content-between align-items-center bg-white shadow-sm rounded-1 h-100 mb-7">
+                                <div class="col-lg-4 col-12">
+                                    <div class="p-5 d-flex flex-column justify-content-between align-items-center bg-white shadow-sm rounded-1 h-100 mb-7 issuee-position">
                                         <div class="d-flex flex-column align-items-center">
                                             <h1 class="fw-bolder color-primary mb-1">2</h1>
                                             <h5 class="mb-3">提供醫療補助</h5>
@@ -235,8 +231,8 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 col-12">
-                                    <div class="p-5 d-flex flex-column justify-content-between align-items-center bg-white shadow-sm rounded-1 h-100 mb-7">
+                                <div class="col-lg-4 col-12">
+                                    <div class="p-5 d-flex flex-column justify-content-between align-items-center bg-white shadow-sm rounded-1 h-100 mb-7 issuee-position">
                                         <div class="d-flex flex-column align-items-center">
                                             <h1 class="fw-bolder color-primary mb-1">3</h1>
                                             <h5 class="mb-3">合作動物醫院</h5>
@@ -269,7 +265,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8 col-10">
                 <div class="row gy-5">
-                    <div class="col-md-6 col-12">
+                    <div class="col-lg-6 col-12">
                         <a class="donate" href="">
                             <div class="ratio ratio-1x1 rounded-1 overflow-hidden">
                                 <div class="d-flex flex-column justify-content-end align-items-end p-5 donate-cover">
@@ -277,12 +273,12 @@
                                     <h4 class="color-light" style="opacity: 0.7;">喵星人之友</h4>                                    
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <img class="img-cover h-100" style="z-index: 0;" src="/assets/Donat-1.jpg" alt="">
+                                    <img class="img-cover w-100 h-100" style="z-index: 0;" src="/assets/Donat-1.jpg" alt="">
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-6 col-12">
+                    <div class="col-lg-6 col-12">
                         <a class="donate" href="">
                             <div class="ratio ratio-1x1 rounded-1 overflow-hidden">
                                 <div class="d-flex flex-column justify-content-end align-items-end p-5 donate-cover">
@@ -290,12 +286,12 @@
                                     <h4 class="color-light" style="opacity: 0.7;">喵星大使</h4>                                    
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <img class="img-cover h-100" style="z-index: 0;" src="/assets/Donat-2.jpg" alt="">
+                                    <img class="img-cover w-100 h-100" style="z-index: 0;" src="/assets/Donat-2.jpg" alt="">
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-6 col-12">
+                    <div class="col-lg-6 col-12">
                         <a class="donate" href="">
                             <div class="ratio ratio-1x1 rounded-1 overflow-hidden">
                                 <div class="d-flex flex-column justify-content-end align-items-end p-5 donate-cover">
@@ -303,19 +299,19 @@
                                     <h4 class="color-light" style="opacity: 0.7;">喵星傳奇</h4>                                    
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <img class="img-cover h-100" style="z-index: 0;" src="/assets/Donat-3.jpg" alt="">
+                                    <img class="img-cover w-100 h-100" style="z-index: 0;" src="/assets/Donat-3.jpg" alt="">
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-6 col-12">
+                    <div class="col-lg-6 col-12">
                         <a class="donate" href="">
                             <div class="ratio ratio-1x1 rounded-1 overflow-hidden">
                                 <div class="d-flex flex-column justify-content-end align-items-end p-5 donate-cover">
                                     <h1 class="color-primary mb-1 text-end">自訂贊助金額</h1>
                                 </div>
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <img class="img-cover h-100" style="z-index: 0;" src="/assets/Donat-4.png" alt="">
+                                    <img class="img-cover w-100 h-100" style="z-index: 0;" src="/assets/Donat-4.png" alt="">
                                 </div>
                             </div>
                         </a>
@@ -327,14 +323,14 @@
     <!-- 小額捐款 end -->
     
     <!-- 聯絡我們 start -->
-    <section class="container-fluid">
+    <section class="container-fluid contant">
         <div class="row">
-            <div class="col-6 position-relative">
+            <div class="col-lg-6 col-12 position-relative contant-img">
                 <img class="w-50 position-absolute bottom-0 end-0" src="/assets/8624939.png" alt="">
             </div>
-            <div class="col-md-6 col-12">
-                <div class="row bg-light px-7" style="padding-top: 96px; padding-bottom: 96px; border-radius: 96px 0px 0px 96px;">
-                    <div class="col-md-10 col-12 p-0">
+            <div class="col-lg-6 col-12">
+                <div class="row bg-light">
+                    <div class="col-lg-10 col-12 p-0">
                         <h2 class="mb-3">民眾服務信箱</h2>
                         <h3 class="color-gray-70">您的聲音，我們的行動！</h3>
                         <h6 class="color-gray-70 my-7">親愛的鄉親，每一位市民的意見都是我們社區前進的原動力。無論大小事，我都誠摯希望聽到您的建議。分享您的想法，一同為我們的未來打造更美好！</h6>
@@ -377,7 +373,7 @@
                                     <textarea class="form-control" rows="6" id="suggestion" placeholder="請輸入建言" required></textarea>
                                 </div>
                             </div>
-                            <div class="col-12 d-flex justify-content-end p-0">
+                            <div class="col-12 d-flex justify-content-end">
                                 <button class="button-primary button-lg d-inline" style="border: 0px;" type="submit">
                                     送出
                                 </button>
@@ -391,7 +387,7 @@
     <!-- 聯絡我們 end -->
     
     <!-- footer start -->
-    <footer class="container color-gray-70 py-7">
+    <footer class="container color-gray-70 py-7 footer">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-12">
                 <div class="row justify-content-center align-items-center py-3">
