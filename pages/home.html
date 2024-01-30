@@ -12,18 +12,20 @@
     <!-- stylesheets end -->
 
     <!-- bs5.js start -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="/bootstrap-5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     <!-- bs5.js end -->
 
     <!-- swiper start -->
-    <link rel="stylesheet" href="/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/swiper/swiper-bundle.min.css"/>
     <!-- swiper end -->
 </head>
 
 <body class="bg-primary">
 
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-xl fixed-top">
+    <nav class="navbar navbar-expand-xl fixed-top" style="-webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);">
         <div class="container d-flex">
             <a href="/pages/home.html" class="navbar-brand">
                 <img src="/assets/Logo.png" alt="Miao Li-Han">
@@ -116,7 +118,7 @@
         </div>
         <div class="container swiper mySwiper overflow-visible p-0">
             <div class="row flex-nowrap swiper-wrapper">
-                <div class="col-lg-5 col-10 swiper-side">
+                <div class="swiper-side col-lg-5 col-10">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -132,7 +134,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-5 col-10 swiper-side">
+                <div class="swiper-side col-lg-5 col-10">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -146,7 +148,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-5 col-10 swiper-side">
+                <div class="swiper-side col-lg-5 col-10">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -160,7 +162,37 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-5 col-10 swiper-side">
+                <div class="swiper-side col-lg-5 col-10">
+                    <div class="rounded-1 overflow-hidden shadow-sm">
+                        <a class="activity-list" href="/pages/activity-detail.html">
+                            <div class="ratio ratio-16x9 overflow-hidden">
+                                <img  class="img-cover" src="/assets/news-1.jpg" alt="">
+                            </div>
+                            <div class="bg-light p-5">
+                                <h6 class="mb-1 color-gray-70">
+                                    2023/12/26
+                                </h6>
+                                <h4 class="mb-5 text-hidden" style="height: 56px; -webkit-line-clamp: 2;">參與台北寵物論壇，爭取貓咪友善環境</h4>
+                                <h5 class="text-align text-hidden" style="opacity: 0.7; -webkit-line-clamp: 3;">炎炎夏日的周六，我走進了台北寵物論壇，帶著一副貓耳髮箍，決定要全力宣傳「貓咪至上」的理念！我相信，我們的都市中，每一隻貓咪都應該有自己的 VIP 休憩空間。</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-side col-lg-5 col-10">
+                    <div class="rounded-1 overflow-hidden shadow-sm">
+                        <a class="activity-list" href="/pages/activity-detail.html">
+                            <div class="ratio ratio-16x9 overflow-hidden">
+                                <img class="img-cover" src="/assets/news-2.jpg" alt="" >
+                            </div>
+                            <div class="bg-light p-5">
+                                <h6 class="mb-1 color-gray-70">2023/12/26</h6>
+                                <h4 class="mb-5 text-hidden" style="height: 56px; -webkit-line-clamp: 2;">掃街模式開啟！帶著你的貓耳，來和我一起走！</h4>
+                                <h5 class="text-align text-hidden" style="opacity: 0.7; -webkit-line-clamp: 3">街上氣氛真的很棒，從小孩到大人，甚至有些狗狗朋友都帶著貓耳來找我握手，真的太可愛了！這次的活動不僅讓我看到大家的熱情，更加堅定了我推進「貓咪友善環境」政策的決心。</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-side col-lg-5 col-10">
                     <div class="rounded-1 overflow-hidden shadow-sm">
                         <a class="activity-list" href="/pages/activity-detail.html">
                             <div class="ratio ratio-16x9 overflow-hidden">
@@ -177,6 +209,7 @@
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
         <a href="/pages/activity.html">
             <div class="container mt-5 p-0 d-flex justify-content-end">
@@ -353,7 +386,7 @@
                                 <div class="col-10 p-0">
                                     <input class="form-control" type="email" id="Email" placeholder="請輸入Email" required>
                                     <div class="invalid-feedback">
-                                        請輸入姓名
+                                        請輸入Email
                                     </div>
                                 </div> 
                             </div>
@@ -363,6 +396,9 @@
                                 </h6>
                                 <div class="col-10 p-0">
                                     <input class="form-control" type="tel" id="phone" placeholder="請輸入手機" required>
+                                    <div class="invalid-feedback">
+                                        請輸入手機
+                                    </div>
                                 </div>
                             </div>
                             <div class="col d-flex mb-7">
@@ -371,6 +407,9 @@
                                 </h6>
                                 <div class="col-10 p-0">
                                     <textarea class="form-control" rows="6" id="suggestion" placeholder="請輸入建言" required></textarea>
+                                    <div class="invalid-feedback">
+                                        請輸入建言
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 d-flex justify-content-end">
@@ -434,5 +473,46 @@
         </div>
     </footer>
     <!-- footer end -->
+
+    <!-- swiper.js -->
+    <script src="/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          rewind: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+    </script>
+    <!-- swiper.js -->
+
+    <!-- bootstrap 驗證 -->
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+            })
+        })()
+    </script>
+
+    <!-- bootstrap 驗證 -->
 </body>
 </html>

@@ -3836,7 +3836,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: rgb(254, 252, 242);
+  background-color: rgba(254, 252, 242, 0.7);
   border-radius: 0px 0px 32px 32px;
   box-shadow: var(--bs-gray-100) 0px 3px 6px;
 }
